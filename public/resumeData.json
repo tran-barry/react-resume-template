@@ -1,163 +1,99 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "name":"Barry Tran",
+    "location": "Vancouver, BC",
+    "image":"profile_picture.jpg",
+    "bio":[
+      "I'm a Software Developer based in Vancouver, BC.",
+      "My current area of expertise is Backend Development and DevOps for distributed systems, particularly with Microsoft Azure. I'm involved in all parts of the development cycle (design, development, production support).",
+      "In addition to development, I take on leadership roles for my teams such as project planning and mentoring. I am currently the Scrum Master of my team.",
+      "In the past, I have been a service reliability engineer and an SDET.",
+      "Thanks for taking time to view my personal site."
+    ],
+    "email": "tran.barry.bat060@gmail.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/barry-tran-a70b2180",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/tran-barry",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
-      {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
-    ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"iQmetrix",
+        "title":"Software Developer - API",
+        "years":"2017 - Present",
+        "description":"Design and develop solutions to align iQMetrix' APIs. Also facilitated agile practices as Scrum Master and provided mentorship for junior developers."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"iQmetrix",
+        "title":"Software Developer - DevOps",
+        "years":"2015 - 2017",
+        "description":"Provided scripts and templates to automate all parts of the build and deployment pipeline. Also provided monitoring solutions and production support for multiple services."
+      },
+      {
+        "company":"iQmetrix",
+        "title":"Software Developer - SDET",
+        "years":"2014 - 2015",
+        "description":"Maintained UI tests for a large WPF application. Developed custom UI testing framework for test stability."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "parentSkillName":"Programming Languages",
+        "childSkills": "C#, Powershell, Python, Ruby"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "parentSkillName":"Data",
+        "childSkills": "NoSQL, SQL"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "parentSkillName":"Development Tools",
+        "childSkills": "Docker, Git, MSBuild, MSDeploy, TeamCity, VSTS/TFS"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "parentSkillName":"Service Reliability Tools",
+        "childSkills": "HostedGraphite, NewRelic, PagerDuty, SCOM"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "parentSkillName":"Microsoft Azure Services",
+        "childSkills": "APIManagement, Application Insights, ARM Templates, Blob Storage, Cloud Service, CosmosDB, Event Hub, Web App, Functions, Linux Web App, Service Bus, Table Storage, Traffic Manager"
+      }
+    ],
+    "education":[
+      {
+        "school":"Scrum Alliance",
+        "degree":"Certified Scrum Master",
+        "graduated":"2017"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "school":"University of Saskatchewan",
+        "degree":"B.E. in Engineering Physics",
+        "graduated":"2013"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "school":"University of Saskatchewan",
+        "degree":"B.Sc. in Computer Science",
+        "graduated":"2013"
       }
     ]
   },
-  "portfolio":{
-    "projects": [
+  "extras":{
+    "extras":[
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "header":"Video Games",
+        "text":"I'm passionate about video games - both playing and developing them. I've participated in multiple Game Jams, and regularly learn about designing them in my spare time."
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "header":"Figure Skating",
+        "text":"In my youth, I competed at the national level for Figure Skating."
       }
     ]
   }
