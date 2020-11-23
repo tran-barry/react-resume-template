@@ -5,9 +5,9 @@
     "image":"profile_picture.jpg",
     "bio":[
       "I'm a Software Developer based in Vancouver, BC.",
-      "My current area of expertise is Backend Development and DevOps for distributed systems, particularly with Microsoft Azure. I'm involved in all parts of the development cycle (design, development, production support).",
-      "In addition to development, I take on leadership roles for my teams such as project planning and mentoring. I am currently the Scrum Master of my team.",
-      "In the past, I have been a service reliability engineer and an SDET.",
+      "My current area of expertise is Site Reliability Engineering for distributed systems, most recently with GCP.",
+      "I am experienced in improving the reliability of production services. Some examples of this work includes working with project managers to maintain a production schedule, automating deployment processes, updating infrastructure for multi-zone redundancy, and responding to pages and incidents impacting production services.",
+      "In addition to development, I take on leadership roles for my teams such as project planning, mentoring, and running meetings.",
       "Thanks for taking time to view my personal site."
     ],
     "email": "tran.barry.bat060@gmail.com",
@@ -27,9 +27,15 @@
   "resume":{
     "work":[
       {
+        "company":"Kabam Games",
+        "title":"Software Engineer - SRE",
+        "years":"2018 - Present",
+        "description":"Responsible for ensuring uptime of Kabam's games. This involved looking at non-technical problems (un-clear processes, inadequate testing), technical problems (automating deployment processes, adding redundancy to backend services), and responding to live incidents."
+      },
+      {
         "company":"iQmetrix",
         "title":"Software Developer - API",
-        "years":"2017 - Present",
+        "years":"2017 - 2018",
         "description":"Design and develop solutions to align iQMetrix' APIs. Also facilitated agile practices as Scrum Master and provided mentorship for junior developers."
       },
       {
@@ -48,19 +54,31 @@
     "skills":[
       {
         "parentSkillName":"Programming Languages",
-        "childSkills": "C#, Powershell, Python, Ruby"
+        "childSkills": "Javascript, Bash, C#, Powershell, Python, Ruby"
+      },
+      {
+        "parentSkillName":"Frameworks",
+        "childSkills": "Node, .NET"
       },
       {
         "parentSkillName":"Data",
-        "childSkills": "NoSQL, SQL"
+        "childSkills": "MongoDB, Redis, NoSQL, SQL"
       },
       {
         "parentSkillName":"Development Tools",
-        "childSkills": "Docker, Git, MSBuild, MSDeploy, TeamCity, VSTS/TFS"
+        "childSkills": "GitHub Actions, Gitlab CI, Terraform, Ansible, Git, JIRA, Docker, MSBuild, MSDeploy, TeamCity, VSTS/TFS (Now known as Azure Deploy)"
       },
       {
         "parentSkillName":"Service Reliability Tools",
-        "childSkills": "HostedGraphite, NewRelic, PagerDuty, SCOM"
+        "childSkills": "HostedGraphite, Grafana, NewRelic, PagerDuty, Site24x7, SCOM"
+      },
+      {
+        "parentSkillName":"GCP",
+        "childSkills": "Load Balancer, Compute Engine (VMs), Functions, DNS, Storage"
+      },
+      {
+        "parentSkillName":"AWS",
+        "childSkills": "S3, Route53"
       },
       {
         "parentSkillName":"Microsoft Azure Services",
@@ -87,6 +105,10 @@
   },
   "extras":{
     "extras":[
+      {
+        "header":"Dungeons and Dragons",
+        "text":"I'm a relatively new DM that has ran a few modules. Still learning!"
+      },
       {
         "header":"Video Games",
         "text":"I'm passionate about video games - both playing and developing them. I've participated in multiple Game Jams, and regularly learn about designing them in my spare time."
